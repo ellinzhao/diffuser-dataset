@@ -15,7 +15,15 @@ class Img3D:
         self.k = k
         self.img_unfiltered, self.centers = self.gen_3d_points()
         # Might need to change sigma based on n.
-        self.img_filtered = ndimage.gaussian_filter(self.img_unfiltered, sigma=7, order=0)
+        self.img_filtered = self.filter()
+
+
+    def filter(self):
+        filtered = np.empty((self.n, self.n, self.n))
+        for i in range(self.n):
+            filtered[i, :, :] = ndimage.gaussian_filter(self.img_unfiltered[i, :, :], sigma=4)
+        return filtered
+
 
     def gen_3d_points(self):
         """
@@ -30,9 +38,12 @@ class Img3D:
             a = np.random.randint(self.n // 4, 3 * self.n // 4)
             b = np.random.randint(self.n // 4, 3 * self.n // 4)
             c = np.random.randint(self.n//4, 3*self.n//4)
-            # c = self.n // 2
             centers += [(a, b, c)]
             r1 = np.random.randint(self.r // 2, self.r)
+
+            a, b, c = self.n // 2, self.n // 2, self.n // 2
+            r1 = self.r
+
             z, y, x = np.ogrid[-a:self.n - a, -b:self.n - b, -c:self.n - c]
             mask = x*x + y*y + z*z <= r1*r1
             arr[mask] = 255
@@ -83,18 +94,18 @@ def generate_video(obj, vid=0, filtered=True, plane="xy"):
     os.chdir('..')
 
 
-img_test = Img3D(100, 8, 6)
+#img_test = Img3D(30, 5, 1)
 
 
-start = time.time()
+#start = time.time()
 
-generate_video(img_test, 0, False, "xy")
-generate_video(img_test, 1, False, "xz")
-generate_video(img_test, 2, False, "yz")
+#generate_video(img_test, 0, False, "xy")
+#generate_video(img_test, 1, False, "xz")
+#generate_video(img_test, 2, False, "yz")
 
-generate_video(img_test, 3, True, "xy")
-generate_video(img_test, 4, True, "xz")
-generate_video(img_test, 5, True, "yz")
+#generate_video(img_test, 3, True, "xy")
+#generate_video(img_test, 4, True, "xz")
+#generate_video(img_test, 5, True, "yz")
 
-end = time.time()
-print(end - start)
+#end = time.time()
+#print(end - start)
