@@ -97,6 +97,40 @@ def generate_video(obj, vid=0, filtered=True, plane="xy"):
     os.chdir('..')
 
 
+def generate_video_2(img, vid=0, plane="xy"):
+    # clearing old files
+    folder = 'output'
+    """
+    for file in os.listdir(folder):
+        file_path = os.path.join(folder, file)
+        try:
+            if file[:5] != "video" and os.path.isfile(file_path):
+                os.unlink(file_path)
+        except Exception as e:
+            print(e)
+    """
+    # generating new pngs, mp4
+    for i in range(len(img)):
+        if plane == "xy":
+            plt.imshow(img[i], cmap=cm.Greys_r)
+        elif plane == "xz":
+            plt.imshow(img[:,i,:], cmap=cm.Greys_r)
+        elif plane == "yz":
+            plt.imshow(img[:,:,i], cmap=cm.Greys_r)
+        plt.savefig('output/file%02d.png' % i)
+    os.chdir('output')
+    subprocess.call([
+        'ffmpeg', '-framerate', '8', '-i', 'file%02d.png', '-r', '30', '-pix_fmt', 'yuv420p',
+        'video%d.mp4' % vid
+    ])
+
+    # i think this is supposed to remove files but it does not.
+    for file_name in glob.glob("*.png"):
+        os.remove(file_name)
+    os.chdir('..')
+
+
+
 def low_pass_filter(img):
     """
     Returns a new image that is low pass filtered.
@@ -110,7 +144,6 @@ def low_pass_filter(img):
     c_x, c_y, c_z = x//2 , y//2, z//2
     w = 10
     # by my logic: z, y, x
-    """
 
     fshift[0:c_z-w, :, :] = 0
     fshift[c_z+w:, :, :] = 0
@@ -124,6 +157,7 @@ def low_pass_filter(img):
     z, y, x = np.ogrid[-c_z:z-c_z, -c_y:x-c_y, -c_x:x-c_x]
     mask = x*x + y*y + z*z >= w**2
     fshift[mask] = 0
+    """
 
     f_ishift = fftpack.ifftshift(fshift)
     img_back = fftpack.ifftn(f_ishift)
@@ -133,7 +167,7 @@ def low_pass_filter(img):
     # plt.imshow(img_back, cmap='gray', interpolation='nearest')
 
 img_test = Img3D(200, 15, 1)
-low_pass_filter(img_test.img_unfiltered)
+img = low_pass_filter(img_test.img_unfiltered)
 
 
 
@@ -144,9 +178,9 @@ start = time.time()
 #generate_video(img_test, 2, False, "yz")
 
 print("generating videos :o")
-generate_video(img_test, 3, True, "xy")
-generate_video(img_test, 4, True, "xz")
-generate_video(img_test, 5, True, "yz")
+generate_video_2(img, 3, "xy")
+generate_video_2(img, 4, "xz")
+generate_video_2(img, 5, "yz")
 
 end = time.time()
 print("time elapsed: %d" % (end - start))
