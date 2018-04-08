@@ -108,8 +108,9 @@ def low_pass_filter(img):
     # plt.imshow(magnitude_spectrum, cmap = 'gray')
     x, y, z  = img.shape
     c_x, c_y, c_z = x//2 , y//2, z//2
-    w = 8
+    w = 10
     # by my logic: z, y, x
+    """
 
     fshift[0:c_z-w, :, :] = 0
     fshift[c_z+w:, :, :] = 0
@@ -119,6 +120,10 @@ def low_pass_filter(img):
 
     fshift[:, :, 0:c_x - w] = 0
     fshift[:, :, c_x+z:] = 0
+    """
+    z, y, x = np.ogrid[-c_z:z-c_z, -c_y:x-c_y, -c_x:x-c_x]
+    mask = x*x + y*y + z*z >= w**2
+    fshift[mask] = 0
 
     f_ishift = fftpack.ifftshift(fshift)
     img_back = fftpack.ifftn(f_ishift)
