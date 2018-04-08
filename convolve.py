@@ -92,11 +92,6 @@ def convolve(n):
 
     return filtered
 
-    # check output
-    #c = data.centers[0]
-    #plt.imshow(filtered[c[0]], cmap='gray', interpolation='nearest')
-    #plt.show()
-
 
 def generate_video(obj, vid=0, plane="xy"):
     # clearing old files
