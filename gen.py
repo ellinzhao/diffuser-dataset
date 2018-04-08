@@ -2,7 +2,7 @@
 import numpy as np
 import os, subprocess, glob
 from matplotlib import pyplot as plt
-from scipy import ndimage
+from scipy import ndimage, fftpack
 import time
 
 import matplotlib.cm as cm
@@ -32,6 +32,7 @@ class Img3D:
         k = num of random points.
         all params >= 1.
         """
+        print("initializing image...")
         arr = np.zeros((self.n, self.n, self.n))
         centers = []
         for _ in range(self.k):
@@ -41,12 +42,14 @@ class Img3D:
             centers += [(a, b, c)]
             r1 = np.random.randint(self.r // 2, self.r)
 
+            # TODO: fix center + radius selection
             a, b, c = self.n // 2, self.n // 2, self.n // 2
             r1 = self.r
 
             z, y, x = np.ogrid[-a:self.n - a, -b:self.n - b, -c:self.n - c]
             mask = x*x + y*y + z*z <= r1*r1
             arr[mask] = 255
+            print("done making unfiltered image")
         return arr, centers
 
     def show_img(self, filter_flag):
@@ -94,18 +97,51 @@ def generate_video(obj, vid=0, filtered=True, plane="xy"):
     os.chdir('..')
 
 
-#img_test = Img3D(30, 5, 1)
+def low_pass_filter(img):
+    """
+    Returns a new image that is low pass filtered.
+    """
+    print("filtering image...")
+    f = fftpack.fftn(img)
+    fshift = fftpack.fftshift(f)
+    magnitude_spectrum = 20*np.log(np.abs(fshift))
+    # plt.imshow(magnitude_spectrum, cmap = 'gray')
+    x, y, z  = img.shape
+    c_x, c_y, c_z = x//2 , y//2, z//2
+    w = 8
+    # by my logic: z, y, x
+
+    fshift[0:c_z-w, :, :] = 0
+    fshift[c_z+w:, :, :] = 0
+
+    fshift[:, 0:c_y-w, :] = 0
+    fshift[:, c_y+w:, :] = 0
+
+    fshift[:, :, 0:c_x - w] = 0
+    fshift[:, :, c_x+z:] = 0
+
+    f_ishift = fftpack.ifftshift(fshift)
+    img_back = fftpack.ifftn(f_ishift)
+    img_back = np.abs(img_back)
+    print("done filtering")
+    return img_back
+    # plt.imshow(img_back, cmap='gray', interpolation='nearest')
+
+img_test = Img3D(200, 15, 1)
+low_pass_filter(img_test.img_unfiltered)
 
 
-#start = time.time()
+
+start = time.time()
 
 #generate_video(img_test, 0, False, "xy")
 #generate_video(img_test, 1, False, "xz")
 #generate_video(img_test, 2, False, "yz")
 
-#generate_video(img_test, 3, True, "xy")
-#generate_video(img_test, 4, True, "xz")
-#generate_video(img_test, 5, True, "yz")
+print("generating videos :o")
+generate_video(img_test, 3, True, "xy")
+generate_video(img_test, 4, True, "xz")
+generate_video(img_test, 5, True, "yz")
 
-#end = time.time()
-#print(end - start)
+end = time.time()
+print("time elapsed: %d" % (end - start))

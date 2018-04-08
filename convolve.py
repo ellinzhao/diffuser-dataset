@@ -92,6 +92,27 @@ def convolve(n):
 
     return filtered
 
+def low_pass_filter(img):
+    """
+    Returns a new image that is low pass filtered.
+    """
+    f = np.fft.fft2(img)
+    fshift = np.fft.fftshift(f)
+    magnitude_spectrum = 20*np.log(np.abs(fshift))
+    # plt.imshow(magnitude_spectrum, cmap = 'gray')
+    rows, cols = img.shape
+    crow, ccol = rows//2 , cols//2
+    w = 8
+    fshift[0:crow-w] = 0
+    fshift[crow+w:] = 0
+    fshift[:, 0:ccol-w] = 0
+    fshift[:, ccol+w:] = 0
+
+    f_ishift = np.fft.ifftshift(fshift)
+    img_back = np.fft.ifft2(f_ishift)
+    img_back = np.abs(img_back)
+    return img_back
+    # plt.imshow(img_back, cmap='gray', interpolation='nearest')
 
 def generate_video(obj, vid=0, plane="xy"):
     # clearing old files
