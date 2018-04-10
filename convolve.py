@@ -1,5 +1,5 @@
 import numpy as np
-from scipy import signal, ndimage
+from scipy import ndimage
 import matplotlib.pyplot as plt
 import gen
 import os, subprocess, glob
@@ -69,7 +69,7 @@ class Img2D:
 def convolve(n):
     # first build the smoothing kernel
 
-    sigma = 1.7     # width of kernel
+    sigma = 2     # width of kernel
     print("making axes...")
     x = np.arange(-n//2,n//2,1)   # coordinate arrays -- make sure they contain 0!
     y = np.arange(-n//2,n//2,1)
@@ -85,34 +85,13 @@ def convolve(n):
     #data = np.zeros((n, n))
     #data[n//4, n//4] = 1.
 
-    data = gen.Img3D(n, 2, 1)
+    data = gen.Img3D(200, 15, 1)
 
     print("convolving...")
     filtered = ndimage.filters.convolve(data.img_unfiltered, kernel, mode="constant")
 
     return filtered
 
-def low_pass_filter(img):
-    """
-    Returns a new image that is low pass filtered.
-    """
-    f = np.fft.fft2(img)
-    fshift = np.fft.fftshift(f)
-    magnitude_spectrum = 20*np.log(np.abs(fshift))
-    # plt.imshow(magnitude_spectrum, cmap = 'gray')
-    rows, cols = img.shape
-    crow, ccol = rows//2 , cols//2
-    w = 8
-    fshift[0:crow-w] = 0
-    fshift[crow+w:] = 0
-    fshift[:, 0:ccol-w] = 0
-    fshift[:, ccol+w:] = 0
-
-    f_ishift = np.fft.ifftshift(fshift)
-    img_back = np.fft.ifft2(f_ishift)
-    img_back = np.abs(img_back)
-    return img_back
-    # plt.imshow(img_back, cmap='gray', interpolation='nearest')
 
 def generate_video(obj, vid=0, plane="xy"):
     # clearing old files
@@ -149,12 +128,12 @@ def generate_video(obj, vid=0, plane="xy"):
     os.chdir('..')
 
 
-img_test = convolve(50)
+img_test = convolve(200)
 
 print("generating videos...")
 generate_video(img_test, 0, "xy")
-generate_video(img_test, 1, "xz")
-generate_video(img_test, 2, "yz")
+#generate_video(img_test, 1, "xz")
+#generate_video(img_test, 2, "yz")
 
 
 # gradient not so great but that's bc of unfiltered image

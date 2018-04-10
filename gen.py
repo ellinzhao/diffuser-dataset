@@ -14,8 +14,9 @@ class Img3D:
         self.r = r
         self.k = k
         self.img_unfiltered, self.centers = self.gen_3d_points()
-        # Might need to change sigma based on n.
-        self.img_filtered = self.filter()
+        # TODO: Might need to change sigma based on n.
+        # self.img_filtered = self.img_unfiltered
+        self.img_filtered = ndimage.gaussian_filter(self.img_unfiltered, sigma=10)
 
 
     def filter(self):
@@ -43,13 +44,13 @@ class Img3D:
             r1 = np.random.randint(self.r // 2, self.r)
 
             # TODO: fix center + radius selection
-            a, b, c = self.n // 2, self.n // 2, self.n // 2
-            r1 = self.r
+            #a, b, c = self.n // 2, self.n // 2, self.n // 2
+            #r1 = self.r
 
-            z, y, x = np.ogrid[-a:self.n - a, -b:self.n - b, -c:self.n - c]
+            z, y, x = np.ogrid[-c:self.n - c, -b:self.n - b, -a:self.n - a]
             mask = x*x + y*y + z*z <= r1*r1
             arr[mask] = 255
-            print("done making unfiltered image")
+            #arr = ndimage.gaussian_filter(arr, sigma=10)
         return arr, centers
 
     def show_img(self, filter_flag):
@@ -144,7 +145,7 @@ def low_pass_filter(img):
     c_x, c_y, c_z = x//2 , y//2, z//2
     w = 10
     # by my logic: z, y, x
-
+    """
     fshift[0:c_z-w, :, :] = 0
     fshift[c_z+w:, :, :] = 0
 
@@ -157,7 +158,7 @@ def low_pass_filter(img):
     z, y, x = np.ogrid[-c_z:z-c_z, -c_y:x-c_y, -c_x:x-c_x]
     mask = x*x + y*y + z*z >= w**2
     fshift[mask] = 0
-    """
+
 
     f_ishift = fftpack.ifftshift(fshift)
     img_back = fftpack.ifftn(f_ishift)
@@ -166,21 +167,43 @@ def low_pass_filter(img):
     return img_back
     # plt.imshow(img_back, cmap='gray', interpolation='nearest')
 
-img_test = Img3D(200, 15, 1)
-img = low_pass_filter(img_test.img_unfiltered)
+
+# Cross section testing
+# TODO: make function
+
+#img_test = Img3D(200, 15, 1)
+#plt.imshow(img_test.img_filtered[:, 200//2, :], cmap='gray', interpolation='nearest')
+#x_section = img_test.img_filtered[:, 200//2, :][:, 200//2]
+#plt.plot(range(200), x_section)   #/np.linalg.norm(x_section)
+#plt.show()
 
 
+img_test = Img3D(200, 8, 3)
+x, y, z = img_test.centers[0]
+#plt.imshow(img_test.img_filtered[:, y, :], cmap='gray', interpolation='nearest')
+x_section = img_test.img_filtered[:, y, :][:, x]
+plt.plot(range(200), x_section)   #/np.linalg.norm(x_section)
+plt.show()
 
-start = time.time()
+#start = time.time()
 
 #generate_video(img_test, 0, False, "xy")
 #generate_video(img_test, 1, False, "xz")
 #generate_video(img_test, 2, False, "yz")
 
-print("generating videos :o")
-generate_video_2(img, 3, "xy")
-generate_video_2(img, 4, "xz")
-generate_video_2(img, 5, "yz")
+print("generating videos")
+#generate_video(img_test, 0, True, "xy")
+#generate_video(img_test, 1, True, "xz")
+#generate_video(img_test, 2, True, "yz")
 
-end = time.time()
-print("time elapsed: %d" % (end - start))
+#generate_video_2(low_pass_filter(img_test.img_unfiltered), 0, "xy")
+
+#end = time.time()
+#print("time elapsed: %d" % (end - start))
+
+# TODO: do I want to do this in every direction?
+
+"""
+for each center, create subplot:
+
+"""
