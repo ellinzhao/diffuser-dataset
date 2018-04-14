@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048ac995-674b-4ec1-8bb5-e28d3f84a102" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/convolve_0.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/convolve_1.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/convolve_2.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/convolve_3.mp4" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/output/file00.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/output/file01.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/output/file02.png" afterPath="" />
@@ -19,93 +15,39 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/output/file10.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/output/file11.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/output/file12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file61.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file62.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file63.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file66.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file68.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file73.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file78.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file79.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/video3.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video3.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video4.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video5.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_100/video0.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_100/video1.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_100/video2.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_500/video0.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_500/video1.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_500/video2.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_500_1/video0.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_500_1/video1.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_500_1/video2.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_500_1/video3.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_500_1/video4.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vids_500_1/video5.mp4" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file13.png" afterPath="$PROJECT_DIR$/output/file13.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file14.png" afterPath="$PROJECT_DIR$/output/file14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file15.png" afterPath="$PROJECT_DIR$/output/file15.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file16.png" afterPath="$PROJECT_DIR$/output/file16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file17.png" afterPath="$PROJECT_DIR$/output/file17.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file18.png" afterPath="$PROJECT_DIR$/output/file18.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file19.png" afterPath="$PROJECT_DIR$/output/file19.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file20.png" afterPath="$PROJECT_DIR$/output/file20.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file21.png" afterPath="$PROJECT_DIR$/output/file21.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file22.png" afterPath="$PROJECT_DIR$/output/file22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file23.png" afterPath="$PROJECT_DIR$/output/file23.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file24.png" afterPath="$PROJECT_DIR$/output/file24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file25.png" afterPath="$PROJECT_DIR$/output/file25.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file26.png" afterPath="$PROJECT_DIR$/output/file26.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file27.png" afterPath="$PROJECT_DIR$/output/file27.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file28.png" afterPath="$PROJECT_DIR$/output/file28.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file29.png" afterPath="$PROJECT_DIR$/output/file29.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file30.png" afterPath="$PROJECT_DIR$/output/file30.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file31.png" afterPath="$PROJECT_DIR$/output/file31.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file32.png" afterPath="$PROJECT_DIR$/output/file32.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file33.png" afterPath="$PROJECT_DIR$/output/file33.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file34.png" afterPath="$PROJECT_DIR$/output/file34.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file35.png" afterPath="$PROJECT_DIR$/output/file35.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file36.png" afterPath="$PROJECT_DIR$/output/file36.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file37.png" afterPath="$PROJECT_DIR$/output/file37.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file38.png" afterPath="$PROJECT_DIR$/output/file38.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file39.png" afterPath="$PROJECT_DIR$/output/file39.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/file40.png" afterPath="$PROJECT_DIR$/output/file40.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/file40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/video0.mp4" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convolve.py" afterPath="$PROJECT_DIR$/convolve.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/new_data-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/new_data-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen.py" afterPath="$PROJECT_DIR$/gen.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_data.ipynb" afterPath="$PROJECT_DIR$/new_data.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -124,13 +66,13 @@
       <file leaf-file-name="gen.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="191" column="41" lean-forward="true" selection-start-line="191" selection-start-column="41" selection-end-line="191" selection-end-column="41" />
+            <state relative-caret-position="303">
+              <caret line="169" column="37" lean-forward="false" selection-start-line="169" selection-start-column="37" selection-end-line="169" selection-end-column="37" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
-                <element signature="e#550#746#0" expanded="false" />
-                <element signature="e#3212#4191#0" expanded="false" />
-                <element signature="e#4225#5121#0" expanded="false" />
+                <element signature="e#498#694#0" expanded="false" />
+                <element signature="e#1846#2108#0" expanded="false" />
+                <element signature="e#4108#5004#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -139,8 +81,8 @@
       <file leaf-file-name="convolve.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/convolve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+            <state relative-caret-position="354">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#163#1848#0" expanded="false" />
@@ -204,8 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,8 +158,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diffuser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diffuser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diffuser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diffuser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,9 +433,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05815832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1187399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -473,7 +442,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25753424" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3890411" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -499,13 +468,88 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gen.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#498#694#0" expanded="false" />
+            <element signature="e#1846#2108#0" expanded="false" />
+            <element signature="e#4108#5004#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convolve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#163#1848#0" expanded="false" />
+            <element signature="e#2582#3592#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#498#694#0" expanded="false" />
+            <element signature="e#1846#2108#0" expanded="false" />
+            <element signature="e#4108#5004#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convolve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#163#1848#0" expanded="false" />
+            <element signature="e#2582#3592#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="193" column="26" lean-forward="true" selection-start-line="193" selection-start-column="26" selection-end-line="193" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#498#694#0" expanded="false" />
+            <element signature="e#1846#2108#0" expanded="false" />
+            <element signature="e#4108#5004#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convolve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#163#1848#0" expanded="false" />
+            <element signature="e#2582#3592#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
-            <element signature="e#550#746#0" expanded="false" />
-            <element signature="e#3212#4191#0" expanded="false" />
-            <element signature="e#4225#5121#0" expanded="false" />
+            <element signature="e#498#694#0" expanded="false" />
+            <element signature="e#1846#2108#0" expanded="false" />
+            <element signature="e#4108#5004#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -528,9 +572,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
-            <element signature="e#550#746#0" expanded="false" />
-            <element signature="e#3212#4191#0" expanded="false" />
-            <element signature="e#4225#5121#0" expanded="false" />
+            <element signature="e#498#694#0" expanded="false" />
+            <element signature="e#1846#2108#0" expanded="false" />
+            <element signature="e#4108#5004#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -576,9 +620,9 @@
           <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
-            <element signature="e#550#746#0" expanded="false" />
-            <element signature="e#3212#4191#0" expanded="false" />
-            <element signature="e#4225#5121#0" expanded="false" />
+            <element signature="e#498#694#0" expanded="false" />
+            <element signature="e#1846#2108#0" expanded="false" />
+            <element signature="e#4108#5004#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -632,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/convolve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+        <state relative-caret-position="354">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#163#1848#0" expanded="false" />
@@ -644,13 +688,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="191" column="41" lean-forward="true" selection-start-line="191" selection-start-column="41" selection-end-line="191" selection-end-column="41" />
+        <state relative-caret-position="303">
+          <caret line="169" column="37" lean-forward="false" selection-start-line="169" selection-start-column="37" selection-end-line="169" selection-end-column="37" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
-            <element signature="e#550#746#0" expanded="false" />
-            <element signature="e#3212#4191#0" expanded="false" />
-            <element signature="e#4225#5121#0" expanded="false" />
+            <element signature="e#498#694#0" expanded="false" />
+            <element signature="e#1846#2108#0" expanded="false" />
+            <element signature="e#4108#5004#0" expanded="false" />
           </folding>
         </state>
       </provider>
