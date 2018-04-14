@@ -15,7 +15,7 @@ class Img3D:
         self.k = k
         self.img_unfiltered, self.centers = self.gen_3d_points()
         # TODO: Might need to change sigma based on n.
-        self.img_filtered = ndimage.gaussian_filter(self.img_unfiltered, sigma=1)
+        self.img_filtered = ndimage.gaussian_filter(self.img_unfiltered, sigma=.6)
 
     def filter(self):
         filtered = np.empty((self.n, self.n, self.n))
@@ -40,7 +40,7 @@ class Img3D:
                 b = np.random.randint(4*self.r, self.n - 4*self.r)
                 c = np.random.randint(4*self.r, self.n - 4*self.r)
                 in_radius = [(a - x) ** 2 + (b - y) ** 2 + (c - z) ** 2 <= 4*self.r ** 2 for x, y, z in centers]
-            centers.append((a, b, c))
+            centers.append((c, b, a))
 
             #r1 = np.random.randint(self.r // 2, self.r)
             r1 = self.r
@@ -70,17 +70,20 @@ class Img3D:
 
             z_vals = self.img_filtered[:, y, x]
             fig.add_subplot(rows, 3, 3 * i + 1)
-            plt.plot(axis, 10*z_vals)
+            print(str(3 * i + 1) + ": " + str(z_vals))
+            plt.plot(axis, z_vals / max(z_vals))
 
             y_vals = self.img_filtered[z, :, x]
             fig.add_subplot(rows, 3, 3 * i + 2)
-            plt.plot(axis, 10*y_vals)
+            print(str(3 * i + 2) + ": " + str(y_vals))
+            plt.plot(axis, y_vals / max(y_vals))
 
             x_vals = self.img_filtered[z, y, :]
             fig.add_subplot(rows, 3, 3 * i + 3)
-            plt.plot(axis, 10*x_vals)
+            print(str(3 * i + 3) + ": " + str(x_vals))
+            plt.plot(axis, x_vals / max(x_vals))
 
-        plt.savefig("foo.png")
+        plt.savefig("cross_section.png")
 
     def generate_video(self, vid=0, filtered=True, plane="z"):
         # clearing old files
@@ -101,6 +104,8 @@ class Img3D:
 
         # generating new pngs, mp4
         for i in range(len(img)):
+            workdone = i/float(len(img))
+            print("\rProgress: [{0:50s}] {1:.1f}%".format('#' * int(workdone * 50), workdone * 100), end="", flush=True)
             if plane == "z":
                 plt.imshow(img[i], cmap=cm.Greys_r)
             elif plane == "y":
@@ -114,7 +119,7 @@ class Img3D:
             'video%d.mp4' % vid
         ])
 
-        # i think this is supposed to remove files but it does not.
+        # I think this is supposed to remove files but it does not.
         for file_name in glob.glob("*.png"):
             os.remove(file_name)
         os.chdir('..')
@@ -157,7 +162,7 @@ def low_pass_filter(img):
 
 
 
-img_test = Img3D(150, 1, 6)
+img_test = Img3D(50, 1, 4)
 
 start = time.time()
 
@@ -166,7 +171,6 @@ start = time.time()
 #img_test.generate_video(2, False, "x")
 
 print("generating videos")
-
 img_test.generate_video(3, True, "z")
 img_test.generate_video(4, True, "y")
 img_test.generate_video(5, True, "x")
