@@ -15,7 +15,7 @@ class Img3D:
         self.k = k
         self.img_unfiltered, self.centers = self.gen_3d_points()
         # TODO: Might need to change sigma based on n.
-        self.img_filtered = ndimage.gaussian_filter(self.img_unfiltered, sigma=.6)
+        self.img_filtered = ndimage.gaussian_filter(self.img_unfiltered, sigma=11)
 
     def filter(self):
         filtered = np.empty((self.n, self.n, self.n))
@@ -60,30 +60,30 @@ class Img3D:
             plt.imshow(self.img_filtered[:, self.centers[0][0], :, :], cmap='gray', interpolation='nearest')
 
     def x_section(self):
-        fig = plt.figure(figsize=(8, 4 * len(self.centers)))
-
+        fig = plt.figure(figsize=(12, 4 * len(self.centers)))
+        offset = 40
         rows = len(self.centers)
         for i in range(rows):
             z, y, x = self.centers[i]
-            print(z, y, x)
-            axis = np.arange(0, self.n, 1)
+            print((z,y,x))
 
             z_vals = self.img_filtered[:, y, x]
+            z_vals = z_vals[max(0, z - offset*self.r): min(self.n, z + offset*self.r)]
             fig.add_subplot(rows, 3, 3 * i + 1)
-            print(str(3 * i + 1) + ": " + str(z_vals))
-            plt.plot(axis, z_vals / max(z_vals))
+            plt.plot(np.arange(0, len(z_vals), 1), z_vals, marker='o')
 
             y_vals = self.img_filtered[z, :, x]
+            y_vals = y_vals[max(0, y - offset*self.r): min(self.n, y + offset*self.r)]
             fig.add_subplot(rows, 3, 3 * i + 2)
-            print(str(3 * i + 2) + ": " + str(y_vals))
-            plt.plot(axis, y_vals / max(y_vals))
+            plt.plot(np.arange(0, len(y_vals), 1), y_vals, marker='o')
 
             x_vals = self.img_filtered[z, y, :]
+            x_vals = x_vals[max(0, x - offset*self.r): min(self.n, x + offset*self.r)]
             fig.add_subplot(rows, 3, 3 * i + 3)
-            print(str(3 * i + 3) + ": " + str(x_vals))
-            plt.plot(axis, x_vals / max(x_vals))
+            plt.plot(np.arange(0, len(x_vals), 1), x_vals, marker='o')
 
         plt.savefig("cross_section.png")
+        plt.close()
 
     def generate_video(self, vid=0, filtered=True, plane="z"):
         # clearing old files
@@ -162,7 +162,11 @@ def low_pass_filter(img):
 
 
 
-img_test = Img3D(50, 1, 4)
+img_test = Img3D(500, 1, 9)
+
+print("making cross section...")
+img_test.x_section()
+
 
 start = time.time()
 
@@ -179,6 +183,3 @@ end = time.time()
 
 print("time elapsed: %f min" % ((end - start)/60.0))
 
-print("making cross section...")
-
-img_test.x_section()
