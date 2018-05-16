@@ -92,7 +92,7 @@ class Volume:
             z, y, x = self.centers[i]
 
             z_vals = self.vol_filtered[:, y, x]
-            z_vals = z_vals[max(0, z - offset): min(self.n, z + self.r)]
+            z_vals = z_vals[max(0, z - offset): min(self.n, z + offset)]
             fig.add_subplot(rows, 3, 3 * i + 1)
             # ax_z.set_title("")
             plt.plot(np.arange(0, len(z_vals), 1), z_vals)

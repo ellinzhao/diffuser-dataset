@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gen_outputs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gen_outputs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen_outputs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="27" column="74" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="74" />
+            <state relative-caret-position="299">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
               <folding>
                 <element signature="e#2#22#0" expanded="true" />
               </folding>
@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="volume.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="volume.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/volume.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-319">
-              <caret line="97" column="58" lean-forward="true" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
+            <state relative-caret-position="132">
+              <caret line="94" column="70" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
               <folding>
                 <element signature="e#210#865#0" />
                 <element signature="e#1162#1411#0" />
@@ -75,9 +75,9 @@
       <list>
         <option value="$PROJECT_DIR$/check_outputs.py" />
         <option value="$PROJECT_DIR$/convolve.py" />
-        <option value="$PROJECT_DIR$/volume.py" />
         <option value="$USER_HOME$/Documents/Projects/ellinzhao.github.io/index.html" />
         <option value="$PROJECT_DIR$/gen_outputs.py" />
+        <option value="$PROJECT_DIR$/volume.py" />
       </list>
     </option>
   </component>
@@ -189,15 +189,15 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1078125" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1078125" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50078124" side_tool="true" weight="0.328877" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.328877" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.1657754" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.27673796" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49921876" weight="0.22058824" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49921876" weight="0.24197862" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -276,10 +276,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gen_outputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="e#2#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/volume.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="97" column="58" lean-forward="true" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
+        <state relative-caret-position="132">
+          <caret line="94" column="70" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
           <folding>
             <element signature="e#210#865#0" />
             <element signature="e#1162#1411#0" />
@@ -288,16 +298,6 @@
             <element signature="e#2561#2702#0" />
             <element signature="e#2830#3030#0" />
             <element signature="e#4654#4783#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen_outputs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="27" column="74" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="74" />
-          <folding>
-            <element signature="e#2#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
