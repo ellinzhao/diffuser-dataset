@@ -2,163 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048ac995-674b-4ec1-8bb5-e28d3f84a102" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/images/laserTarget_0.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/images/laserTarget_8.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/images/testdog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file101.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file102.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file103.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file104.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file105.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file106.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file107.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file108.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file109.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file110.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file113.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file115.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file116.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file117.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file118.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file119.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file121.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file122.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file123.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file124.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file125.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file126.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file127.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file129.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file130.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file131.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file133.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file134.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file135.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file136.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file137.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file138.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file139.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file141.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file142.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file143.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file145.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file146.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file147.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file148.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file61.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file62.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file63.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file66.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file68.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file73.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file78.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file79.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file81.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file82.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file83.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file84.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file85.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file86.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file87.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file88.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file89.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file90.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file91.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file93.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file94.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file97.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file98.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code/output/file99.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/code/img.py" afterPath="$PROJECT_DIR$/code/volume.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/gen_outputs.py" afterPath="$PROJECT_DIR$/code/gen_outputs.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/displays.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/displays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/volume.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/volume.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/diffuser.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/diffuser.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/diffuser.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/diffuser.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/diffuser.synctex.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/diffuser.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/diffuser.tex.bak" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -171,14 +24,13 @@
     <SUITE FILE_PATH="coverage/diffuser$convolve.coverage" NAME="convolve Coverage Results" MODIFIED="1522770848441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/diffuser$gen.coverage" NAME="gen Coverage Results" MODIFIED="1522636983811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gen_outputs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gen_outputs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/gen_outputs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="630">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
               </folding>
@@ -186,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="displays.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="displays.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/displays.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
               </folding>
@@ -201,23 +53,21 @@
       <file leaf-file-name="volume.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/volume.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="120" column="19" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
+            <state relative-caret-position="585">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="65" selection-end-column="19" />
               <folding>
                 <element signature="e#1#40#0" expanded="true" />
-                <element signature="e#211#724#0" expanded="false" />
-                <element signature="e#757#934#0" expanded="false" />
-                <element signature="e#976#1225#0" expanded="false" />
-                <element signature="e#1261#2042#0" expanded="false" />
-                <element signature="e#2093#2318#0" expanded="false" />
-                <element signature="e#2371#2512#0" expanded="false" />
-                <element signature="e#2558#2602#0" expanded="false" />
-                <element signature="e#2640#2840#0" expanded="false" />
-                <element signature="e#2871#3368#0" expanded="false" />
-                <element signature="e#3403#4428#0" expanded="false" />
-                <element signature="e#4464#4593#0" expanded="false" />
-                <element signature="e#4662#5840#0" expanded="false" />
-                <element signature="e#4717#5011#1" expanded="false" />
+                <element signature="e#943#1120#0" />
+                <element signature="e#1162#1411#0" />
+                <element signature="e#1447#2228#0" />
+                <element signature="e#2561#2702#0" />
+                <element signature="e#2748#2792#0" />
+                <element signature="e#2830#3030#0" />
+                <element signature="e#3061#3558#0" />
+                <element signature="e#3593#4618#0" />
+                <element signature="e#4654#4783#0" />
+                <element signature="e#4852#6030#0" />
+                <element signature="e#4907#5201#1" />
               </folding>
             </state>
           </provider>
@@ -260,9 +110,9 @@
         <option value="$PROJECT_DIR$/code/check_outputs.py" />
         <option value="$PROJECT_DIR$/code/img.py" />
         <option value="$PROJECT_DIR$/code/image.py" />
+        <option value="$PROJECT_DIR$/code/gen_outputs.py" />
         <option value="$PROJECT_DIR$/code/volume.py" />
         <option value="$PROJECT_DIR$/code/displays.py" />
-        <option value="$PROJECT_DIR$/code/gen_outputs.py" />
       </list>
     </option>
   </component>
@@ -272,80 +122,24 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diffuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diffuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diffuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diffuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diffuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diffuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -372,26 +166,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.convolve">
-    <configuration default="false" name="gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="diffuser" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="diffuser" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gen.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="convolve" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="convolve" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="diffuser" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -402,13 +197,42 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="diffuser" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convolve.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="diffuser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="diffuser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -474,38 +298,6 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="diffuser" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="diffuser" />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -523,15 +315,14 @@
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="diffuser" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="diffuser" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -540,37 +331,31 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="diffuser" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="diffuser" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.gen" />
-      <item index="1" class="java.lang.String" itemvalue="Python.convolve" />
+    <list>
+      <item itemvalue="Python.gen" />
+      <item itemvalue="Python.convolve" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.convolve" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gen" />
+      <list>
+        <item itemvalue="Python.convolve" />
+        <item itemvalue="Python.gen" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -587,27 +372,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08804523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3328767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15616438" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20839813" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30390626" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3328767" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32970452" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2606952" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.20839813" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,19 +400,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Diffuser cam dataset.ipynb" />
-    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Diffuser cam dataset-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_data.ipynb" />
     <entry file="file://$PROJECT_DIR$/output/file01.png" />
     <entry file="file://$PROJECT_DIR$/output/file12.png" />
@@ -664,7 +436,7 @@
     <entry file="file://$PROJECT_DIR$/code/lowpass_filter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -676,26 +448,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/sample_100.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/image.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/code/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -705,7 +473,7 @@
     <entry file="file://$PROJECT_DIR$/code/gen_video.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -713,67 +481,61 @@
     <entry file="file://$PROJECT_DIR$/code/check_outputs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/point.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/code/image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="43" column="70" lean-forward="false" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
-          <folding>
-            <element signature="e#1#19#0" expanded="false" />
-            <element signature="e#140#395#0" expanded="false" />
-            <element signature="e#1011#1055#0" expanded="false" />
-            <element signature="e#1089#1226#0" expanded="false" />
-            <element signature="e#1263#1282#0" expanded="false" />
-            <element signature="e#1321#1865#0" expanded="false" />
-          </folding>
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/volume.py">
+    <entry file="file://$PROJECT_DIR$/code/gen_outputs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="120" column="19" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
-          <folding>
-            <element signature="e#1#40#0" expanded="true" />
-            <element signature="e#211#724#0" expanded="false" />
-            <element signature="e#757#934#0" expanded="false" />
-            <element signature="e#976#1225#0" expanded="false" />
-            <element signature="e#1261#2042#0" expanded="false" />
-            <element signature="e#2093#2318#0" expanded="false" />
-            <element signature="e#2371#2512#0" expanded="false" />
-            <element signature="e#2558#2602#0" expanded="false" />
-            <element signature="e#2640#2840#0" expanded="false" />
-            <element signature="e#2871#3368#0" expanded="false" />
-            <element signature="e#3403#4428#0" expanded="false" />
-            <element signature="e#4464#4593#0" expanded="false" />
-            <element signature="e#4662#5840#0" expanded="false" />
-            <element signature="e#4717#5011#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/displays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="630">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/gen_outputs.py">
+    <entry file="file://$PROJECT_DIR$/code/volume.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="65" selection-end-column="19" />
+          <folding>
+            <element signature="e#1#40#0" expanded="true" />
+            <element signature="e#943#1120#0" />
+            <element signature="e#1162#1411#0" />
+            <element signature="e#1447#2228#0" />
+            <element signature="e#2561#2702#0" />
+            <element signature="e#2748#2792#0" />
+            <element signature="e#2830#3030#0" />
+            <element signature="e#3061#3558#0" />
+            <element signature="e#3593#4618#0" />
+            <element signature="e#4654#4783#0" />
+            <element signature="e#4852#6030#0" />
+            <element signature="e#4907#5201#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/test_sigma_5.500000.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/unfiltered.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/displays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
           </folding>

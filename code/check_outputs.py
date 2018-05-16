@@ -1,6 +1,6 @@
 
 import numpy as np
 
-data = np.load('data_2D.npy')
+data = np.load('out_labels/labels3.npy')
 print(data)
 print(data.shape)
