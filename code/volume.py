@@ -80,30 +80,30 @@ class Volume:
                 end = i
             last = row[i]
         point_r = (end - start) / 2.0   # radius of blurred point
+        self.r_filtered = point_r
         self.k = int(round(self.percent * self.n**3 / (4.0 / 3 * 3.14159 * point_r**3)))
 
     def x_section(self):
         fig = plt.figure(figsize=(12, 4 * len(self.centers)))
-        # TODO: change offset?
         # TODO: change title
-        offset = 40
+        offset = 5*self.r_filtered//4
         rows = len(self.centers)
         for i in range(rows):
             z, y, x = self.centers[i]
 
             z_vals = self.vol_filtered[:, y, x]
-            z_vals = z_vals[max(0, z - offset*self.r): min(self.n, z + offset*self.r)]
-            ax_z = fig.add_subplot(rows, 3, 3 * i + 1)
+            z_vals = z_vals[max(0, z - offset): min(self.n, z + self.r)]
+            fig.add_subplot(rows, 3, 3 * i + 1)
             # ax_z.set_title("")
             plt.plot(np.arange(0, len(z_vals), 1), z_vals)
 
             y_vals = self.vol_filtered[z, :, x]
-            y_vals = y_vals[max(0, y - offset*self.r): min(self.n, y + offset*self.r)]
+            y_vals = y_vals[max(0, y - offset): min(self.n, y + offset)]
             fig.add_subplot(rows, 3, 3 * i + 2)
             plt.plot(np.arange(0, len(y_vals), 1), y_vals)
 
             x_vals = self.vol_filtered[z, y, :]
-            x_vals = x_vals[max(0, x - offset*self.r): min(self.n, x + offset*self.r)]
+            x_vals = x_vals[max(0, x - offset): min(self.n, x + offset)]
             fig.add_subplot(rows, 3, 3 * i + 3)
             plt.plot(np.arange(0, len(x_vals), 1), x_vals)
 
@@ -131,9 +131,9 @@ class Volume:
 
         # generating new pngs, mp4
         for i in range(len(arr)):
-            # workdone = i/float(len(arr))
+            #workdone = i/float(len(arr))
             # TODO: print statement broke
-            # print("\rProgress: [{0:50s}] {1:.1f}%".format('#' * int(workdone * 50), workdone * 100), end="", flush=True)
+            #print("\rProgress: [{0:50s}] {1:.1f}%".format('#' * int(workdone * 50), workdone * 100), end="", flush=True)
             if plane == "z":
                 plt.imshow(arr[i], cmap=cm.Greys_r)
             elif plane == "y":

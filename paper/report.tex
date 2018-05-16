@@ -8,6 +8,7 @@
 \usepackage[margin=1in,letterpaper]{geometry} % decreases margins
 \usepackage{cite} % takes care of citations
 \usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\usepackage{amssymb}
 \hypersetup{
 	colorlinks=true,       % false: boxed links; true: colored links
 	linkcolor=blue,        % color of internal links
@@ -28,148 +29,41 @@
 
 \section{Introduction}
 
-This writeup documents the work done on generating datasets for the DiffuserCam project. The dataset consists of volumes with varying densities of florescent point sources. 
+For this specific dataset for the DiffuserCam project, the goal was to generate volumes 
+with point sources. This was done using the \texttt{numPy} and \texttt{sciPy} libraries.
 
 
-\section{Overview}
+\section{Code}
 
-Here give a brief summary of the physical effect of interest and provide
-necessary equations. Here is how you insert an equation. According to
-references~\cite{melissinos, Cyr, Wiki} the dependence of interest is given
-by
-\begin{equation} \label{eq:aperp} % the label is used to reference the equation
-u(\lambda,T)=\frac{8\pi hc\lambda^{-5}}{e^{hc/\lambda kT}-1},
-\end{equation}
-where T is temperature in Kelvin, c is the speed of light, etc. Don't forget to
-explain what each variable means the first time that you introduce it.
+The \texttt{Volume} object is defined in \texttt{volume.py}. A \texttt{Volume} contains 
+an array with points created by first masking with a \texttt{np.ogrid} and then filtering 
+using \texttt{scipy.ndimage.gaussian\_filter}. The dimensions of the volume, radii and density of points and blur can all be tuned via the parameters to the constructor. 
 
-
-\section{Procedures}
-
-Give a schematic of the experimental setup(s) used in the experiment (see
-figure~\ref{fig:samplesetup}). Give the description of  abbreviations
-either in the figure caption or in the text. Write a description of what is
-going on. 
-\begin{comment}
+\texttt{volume.py} also provides functions to assist in tuning parameters and in 
+\texttt{gen\_outputs.py}, there are examples of how to use these functions. Essentially,
+these functions save image and video files of a \texttt{Volume} with specific parameters.
+For images and videos of volumes, see these \href{https://goo.gl/87enx2}{slides} 
+and for the code, see this \href{https://github.com/ellinzhao/diffuser-dataset}{repo}.
 
 
-\begin{figure}[ht] 
-        % read manual to see what [ht] means and for other possible options
-        \centering \includegraphics[width=0.8\columnwidth]{sr_setup}
-        % note that in above figure file name, "sr_setup",
-        % the file extension is missing. LaTeX is smart enough to find
-        % apropriate one (i.e. pdf, png, etc.)
-        % You can add this extention yourself as it seen below
-        % both notations are correct but above has more flexibility
-        %\includegraphics[width=1.0\columnwidth]{sr_setup.pdf}
-        \caption{
-                \label{fig:samplesetup} % spaces are big no-no withing labels
-                % things like fig: are optional in the label but it helps
-                % to orient yourself when you have multiple figures,
-                % equations and tables
-                Every figure MUST have a caption.
-        }
-\end{figure}
-\end{comment}
+\section{Usage}
 
-Don't forget to list all important steps in your experimental procedure!
+Call the \texttt{gen\_outputs($\cdot$)} method in \texttt{gen\_outputs.py} to generate and save volumes. Given parameters \texttt{num\_imgs}, \texttt{n}, \texttt{r},
+\texttt{percent\_range}, \texttt{sigma}, the following \texttt{.npy} files will be saved:
 
-Use active voice either in past or present through all the report and be
-consistent with it:
-The laser light comes  from to ... and eventually arrived to the
-balanced photodiode as seen in the figure~\ref{fig:samplesetup}.
-
-Sentences in the past voice while correct are generally considered hard to read
-in large numbers. The laser light was directed to ..., wave plates were set
-to ... etc.
-
-
-\section{Analysis}
-
-In this section you will need to show your experimental results. Use tables and
-graphs when it is possible. Table~\ref{tbl:bins} is an example.
-
-\begin{table}[ht]
 \begin{center}
-\caption{Every table needs a caption.}
-\label{tbl:bins} % spaces are big no-no withing labels
-\begin{tabular}{|cc|} 
-\hline
-\multicolumn{1}{|c}{$x$ (m)} & \multicolumn{1}{c|}{$V$ (V)} \\
-\hline
-0.0044151 &   0.0030871 \\
-0.0021633 &   0.0021343 \\
-0.0003600 &   0.0018642 \\
-0.0023831 &   0.0013287 \\
-\hline
+\begin{tabular}{ |l|l|l| } 
+ \hline
+ File & Description & Dimensions \\ \hline
+ \texttt{data\_2D} & flattened projections of each volume & $n^2 \times$ num\_imgs \\ \hline
+ \texttt{data\_3D} & flattened volumes & $n^3 \times$ num\_imgs \\ \hline
+ \texttt{labels\_0},...,\texttt{labels\_n} & centers for each volume & num\_points $\times$ 3 \\ \hline
 \end{tabular}
 \end{center}
-\end{table}
 
-Analysis of equation~\ref{eq:aperp} shows ...
-
-Note: this section can be integrated with the previous one as long as you
-address the issue. Here explain how you determine uncertainties for different
-measured values. Suppose that in the experiment you make a series of
-measurements of a resistance of the wire $R$ for different applied voltages
-$V$, then you calculate the temperature from the resistance using a known
-equation and make a plot  temperature vs. voltage squared. Again suppose that
-this dependence is expected to be linear~\cite{Cyr}, and the proportionality coefficient
-is extracted from the graph. Then what you need to explain is that for the
-resistance and the voltage the uncertainties are instrumental (since each
-measurements in done only once), and they are $\dots$. Then give an equation
-for calculating the uncertainty of the temperature from the resistance
-uncertainty. Finally explain how the uncertainty of the slop of the graph was
-found (computer fitting, graphical method, \emph{etc}.)
-
-If in the process of data analysis you found any noticeable systematic
-error(s), you have to explain them in this section of the report.
-
-It is also recommended to plot the data graphically to efficiently illustrate
-any points of discussion. For example, it is easy to conclude that the
-experiment and theory match each other rather well if you look at
-Fig.~\ref{fig:samplesetup} and Fig.~\ref{fig:exp_plots}.
-
-\begin{comment}
-\begin{figure}[ht] 
-  \centering
-      \includegraphics[width=0.5\columnwidth]{sr_squeezing_vs_detuning}
-
-% some figures do not need to be too wide
-        \caption{
-                \label{fig:exp_plots}  
-                Every plot must have axes labeled.
-        }
-\end{figure}
-\end{comment}
-
-
-\section{Conclusions}
-Here you briefly summarize your findings.
-
-%++++++++++++++++++++++++++++++++++++++++
-% References section will be created automatically 
-% with inclusion of "thebibliography" environment
-% as it shown below. See text starting with line
-% \begin{thebibliography}{99}
-% Note: with this approach it is YOUR responsibility to put them in order
-% of appearance.
-
-\begin{thebibliography}{99}
-
-\bibitem{melissinos}
-A.~C. Melissinos and J. Napolitano, \textit{Experiments in Modern Physics},
-(Academic Press, New York, 2003).
-
-\bibitem{Cyr}
-N.\ Cyr, M.\ T$\hat{e}$tu, and M.\ Breton,
-% "All-optical microwave frequency standard: a proposal,"
-IEEE Trans.\ Instrum.\ Meas.\ \textbf{42}, 640 (1993).
-
-\bibitem{Wiki} \emph{Expected value},  available at
-\texttt{http://en.wikipedia.org/wiki/Expected\_value}.
-
-\end{thebibliography}
+\texttt{gen\_outputs.py} provides an example of how to call the function. At the moment,
+you must call the function in a Python file, then run the file from the command line. 
 
 
 \end{document}
+
